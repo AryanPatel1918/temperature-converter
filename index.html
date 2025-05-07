@@ -8,20 +8,24 @@
 </head>
 
 <body>
-    <h3>Temperature Converter</h3>
-    <input type="number" id="temp-el">
-    <br>
-
-    <input type="radio" id="ftoc" name="conversion-type">
-    <label for="ftoc">F -> C</label>
-    <br>
-    <input type="radio" id="ctof" name="conversion-type">
-    <label for="ctof">C -> F</label>
-    <br>
-
-    <button id="convert-btn">Convert</button>
-
-    <p>Temperature: <span id="display-temp"></span></p>
+    <div class="container">
+        <h1>Temperature Converter</h1>
+        <input type="number" id="temp-el" placeholder="Enter temperature...">
+        <br>
+    
+        <div>
+            <input type="radio" id="ftoc" name="conversion-type">
+            <label for="ftoc">Fahrenheit ➡️ Celsius</label>
+        </div>
+        
+        <div>
+            <input type="radio" id="ctof" name="conversion-type">
+            <label for="ctof">Celsius ➡️ Fahrenheit</label>
+        </div>
+        
+        <button id="convert-btn">Convert</button>
+        <p id="display-temp"></p>
+    </div>
     
     <script src="script.js"></script>
 </body>
