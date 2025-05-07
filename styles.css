@@ -26,6 +26,7 @@ h1 {
     border-radius: 5px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
     text-align: center;
+    margin-top: -60px; /* shifts the container upward */
 }
 
 #temp-el {
